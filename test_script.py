@@ -33,14 +33,8 @@ class Rover():
         GPIO.output(in1,GPIO.HIGH)
         GPIO.output(in2,GPIO.LOW)
          
-    
-    def high():
-    def medium():
-    def low():
-    def forward():
-    def backward():
-    def left():
-    def right():
-    def stop():
-    def exit():
-    
+         
+
+r=Rover()
+r.run()    
+   
