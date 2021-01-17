@@ -12,7 +12,7 @@ class Rover():
         self.r2=27
         self.en2=22
         self.temp1=1
-        self.GPIO.setmode(GPIO.BCM)
+        self.GPIO=GPIO.setmode(GPIO.BCM)
         self.GPIO.setup(in1,GPIO.OUT)
         self.GPIO.setup(in2,GPIO.OUT)
         self.GPIO.setup(en,GPIO.OUT)
