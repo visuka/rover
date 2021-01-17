@@ -29,8 +29,13 @@ class Rover():
         
     def run(self):
         print("running")
-        GPIO.output(self.in1,GPIO.HIGH)
-        GPIO.output(self.in2,GPIO.LOW)
+        while(1):
+            x=input()
+            if x=='r':
+                GPIO.output(self.in1,GPIO.HIGH)
+                GPIO.output(self.in2,GPIO.LOW)
+            else:
+                break
          
          
 
