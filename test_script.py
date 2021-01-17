@@ -26,7 +26,7 @@ class Rover():
     p2=GPIO.PWM(en2,1000)
         
            
-    def run(self):
+    def run(self,in1,in2):
         GPIO.output(in1,GPIO.HIGH)
         GPIO.output(in2,GPIO.LOW)
     
