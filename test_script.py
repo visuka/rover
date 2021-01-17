@@ -29,7 +29,7 @@ class Rover():
         self.p2.start(100)
         
     def run():
-        print(
+        print("running")
         GPIO.output(in1,GPIO.HIGH)
         GPIO.output(in2,GPIO.LOW)
          
